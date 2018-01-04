@@ -18,7 +18,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='googler',
-    version='1.0.1',
+    version='1.0.2',
     author='Christian Jurk',
     author_email='commx@commx.ws',
     description=('Google API Library for Python',),
@@ -27,7 +27,7 @@ setup(
     url='https://github.com/commx/googler',
     packages=find_packages(),
     install_requires=[
-        'pycrypto',
+        'pycryptodome',
         'requests'
     ],
     long_description='README.md',
